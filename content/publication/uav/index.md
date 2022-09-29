@@ -1,18 +1,16 @@
 ---
-title: 'A-HOI: Articulated Human-Object Interaction'
+title: 'UAV navigation in high dynamic environments: A deep reinforcement learning approach'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
+  - Tong Guo
   - admin
-  - Tengyu Liu
-  - Zhexuan Cao
-  - Jieming Cui
-  - Yixin Chen
-  - He Wang
-  - Yixin Zhu
-  - Siyuan Huang
+  - Biyue Li
+  - Xi Zhu
+  - Ya Wang
+  - Wenbo Du
 
 # Author notes (optional)
 author_notes: ""
@@ -33,10 +31,10 @@ publication_types: ['2']
 publication: In *Chinese Journal of Aeronautics*
 publication_short: ""
 
-abstract: Fine-grained capturing of 3D Human-Object Interactions (HOIs) boosts human activity understanding and facilitates downstream visual tasks, including action recognition, holistic scene reconstruction, and human motion synthesis. Despite its significance, most existing works assume that humans interact with rigid ob jects, limiting their scope. In this paper, we address the challenging problem of Articulated Human-Object Interaction (A-HOI), wherein whole human bod7 ies interact with articulated objects, whose parts are connected by prismatic or revolute joints. We present Capturing Human and Articulated-object InteRac9 tionS (CHAIRS), a large-scale motion-captured A-HOI dataset, consisting of 16.2 hours of versatile interactions between 46 participants and 74 rigid and articulated sittable objects. CHAIRS provides 3D meshes of both humans and articulated objects during the entire interactive process, as well as the realistic and physically plausible part-level interactions. We show the value of CHAIRS with a new chal lenging task: Kinematic-Agnostic Human and Object Pose Estimation (KA-HOPE). Leveraging the interactions between human and object parts, we devise the very first model to tackle the joint estimation of human and object poses during interac tions, which significantly outperforms the baseline models and shows improved generalizability across kinematic structures. We hope CHAIRS will promote the community toward more fine-grained interaction understanding between humans and 3D scenes.
+abstract: Unmanned Aerial Vehicle (UAV) navigation is aimed at guiding a UAV to the desired destinations along a collision-free and efficient path without human interventions, and it plays a crucial role in autonomous missions in harsh environments. The recently emerging Deep Reinforcement Learning (DRL) methods have shown promise for addressing the UAV navigation problem, but most of these methods cannot converge due to the massive amounts of interactive data when a UAV is navigating in high dynamic environments, where there are numerous obstacles moving fast. In this work, we propose an improved DRL-based method to tackle these fundamental limitations. To be specific, we develop a distributed DRL framework to decompose the UAV navigation task into two simpler sub-tasks, each of which is solved through the designed Long Short-Term Memory (LSTM) based DRL network by using only part of the interactive data. Furthermore, a clipped DRL loss function is proposed to closely stack the two sub-solutions into one integral for the UAV navigation problem. Extensive simulation results are provided to corroborate the superiority of the proposed method in terms of the convergence and effectiveness compared with those of the state-of-the-art DRL methods.
 
 # Summary. An optional shortened abstract.
-summary: We present CHAIRS, a large-scale multi-view RGB-D dataset with diverse and high-quality 3D meshes of human and articulated objects. (ii) We design a new task of KA-HOPE, agnostic to variations in object kinematics.
+summary: In this work, we propose an improved DRL-based UAV navigation method to tackle the problem of convergencen when a UAV is navigating in high dynamic environments.
 
 tags: []
 
