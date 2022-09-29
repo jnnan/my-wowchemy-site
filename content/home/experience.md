@@ -7,7 +7,7 @@ widget: experience
 headless: true
 
 # Order that this section appears on the page.
-weight: 40
+weight: 21
 
 title: Experience
 subtitle:
@@ -22,29 +22,37 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: CEO
-    company: GenCoin
-    company_url: ''
-    company_logo: org-gc
-    location: California
-    date_start: '2021-01-01'
+  - title: Research Intern
+    company: BIGAI
+    company_url: https://www.bigai.ai/
+    company_logo: bigai
+    location: Beijing
+    date_start: '2020-12-06'
     date_end: ''
     description: |2-
-        Responsibilities include:
-        
-        * Analysing
-        * Modelling
-        * Deploying
+        * Conduct research on articulated human-object interaction.
 
-  - title: Professor of Semiconductor Physics
-    company: University X
+
+  - title: Research Intern
+    company: Sensetime
+    company_url: ''
+    company_logo: sensetime
+    location: Beijing
+    date_start: '2021-05-06'
+    date_end: '2021-12-06'
+    description: |2-
+        * Develop algorithms for holistic urban scene understanding
+        * Conduct research on urban scene parsing and synthesis.
+
+  - title: Software Engineering (Intern)
+    company: JD
     company_url: ''
     company_logo: org-x
-    location: California
-    date_start: '2016-01-01'
-    date_end: '2020-12-31'
-    description: Taught electronic engineering and researched semiconductor physics.
-
+    location: Beijing
+    date_start: '2020-05-06'
+    date_end: '2020-08-06'
+    description: |2-
+        * APP backend service development and maintenance.
 design:
   columns: '2'
 ---
